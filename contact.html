@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Aurora Architecture</title>
+  <meta name="description" content="Start a conversation with Aurora Architecture. Visit our New York studio, call, email, or send us your project brief — we'd love to hear from you." />
+  <link rel="canonical" href="https://www.auroraarchitecture.com/contact.html" />
+  <meta name="theme-color" content="#1F1F1F" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Aurora Architecture" />
+  <meta property="og:title" content="Contact Aurora Architecture" />
+  <meta property="og:description" content="Start a conversation about your project." />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:url" content="https://www.auroraarchitecture.com/contact.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="images/favicon-180.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <header class="site-header on-dark" id="site-header">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="Aurora Architecture — home">
+        <span class="brand-mark">A</span>
+        <span class="brand-text"><span class="brand-name">Aurora</span><span class="brand-tag">Architecture</span></span>
+      </a>
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About Us</a></li>
+          <li><a class="nav-link" href="team.html">Our Team</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="nav-link active" href="contact.html">Contact Us</a></li>
+        </ul>
+        <a class="btn btn-gold nav-cta" href="contact.html">Start a Project</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="nav-backdrop" id="nav-backdrop"></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="ph-media"><img src="images/floating-stairs-wood.jpg" alt="Sculptural staircase in a warmly lit Aurora interior" /></div>
+      <div class="container">
+        <p class="breadcrumb reveal"><a href="index.html">Home</a> / Contact Us</p>
+        <h1 class="reveal d1">Let's start a conversation.</h1>
+        <p class="lead reveal d2">Tell us about your site, your ambitions and your timeline. We reply to every enquiry within two business days.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-layout">
+          <!-- FORM -->
+          <div class="reveal">
+            <p class="eyebrow">Send a Message</p>
+            <h2 style="margin-bottom:1.6rem;">Project enquiry</h2>
+
+            <div class="form-success" role="status">
+              <svg class="icon-svg" viewBox="0 0 24 24" style="width:20px;height:20px;flex:none;"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>Thank you — your message has been sent. We'll be in touch shortly.</span>
+            </div>
+
+            <form id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="name" autocomplete="name" placeholder="Jane Doe" />
+                  <span class="field-error">Please enter your name.</span>
+                </div>
+                <div class="form-field">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" autocomplete="email" placeholder="jane@email.com" />
+                  <span class="field-error">Please enter a valid email address.</span>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="phone">Phone <span style="text-transform:none;letter-spacing:0;">(optional)</span></label>
+                  <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+1 (212) 000-0000" />
+                </div>
+                <div class="form-field">
+                  <label for="service">Service of Interest</label>
+                  <select id="service" name="service">
+                    <option value="">Select a service…</option>
+                    <option>Residential Architecture</option>
+                    <option>Commercial Architecture</option>
+                    <option>Interior Design</option>
+                    <option>Urban Planning</option>
+                    <option>Hospitality</option>
+                    <option>Renovation</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Tell us about your project, location, scope and timeline…"></textarea>
+                <span class="field-error">Please share a few details (at least 10 characters).</span>
+              </div>
+              <button type="submit" class="btn btn-solid-gold">Send Message <span class="arrow">&rarr;</span></button>
+              <p class="form-note">By submitting, you agree to be contacted about your enquiry. We never share your details.</p>
+            </form>
+          </div>
+
+          <!-- INFO -->
+          <div class="contact-info reveal d2">
+            <p class="eyebrow">Studio Details</p>
+            <h2 style="margin-bottom:1.6rem;">Visit or reach us</h2>
+
+            <div class="info-item">
+              <span class="ii-icon"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+              <div>
+                <div class="ii-label">Studio Address</div>
+                <div class="ii-value">128 Meridian Avenue, Suite 900<br />New York, NY 10013, USA</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="ii-icon"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><path d="M4 5c0 8 7 15 15 15l0-3.5-4-1.5-2 2a12 12 0 0 1-6-6l2-2L11.5 5z"/></svg></span>
+              <div>
+                <div class="ii-label">Phone</div>
+                <div class="ii-value"><a href="tel:+12125550147">+1 (212) 555-0147</a></div>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="ii-icon"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6"/></svg></span>
+              <div>
+                <div class="ii-label">Email</div>
+                <div class="ii-value"><a href="mailto:studio@auroraarchitecture.com">studio@auroraarchitecture.com</a></div>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="ii-icon"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <div>
+                <div class="ii-label">Office Hours</div>
+                <div class="ii-value">Monday–Friday · 9:00–18:00<br />Saturday · by appointment</div>
+              </div>
+            </div>
+
+            <div class="footer-social" style="margin-top:1.8rem;">
+              <a href="#" aria-label="Instagram" style="border-color:var(--gold);color:var(--gold-dark);"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg></a>
+              <a href="#" aria-label="LinkedIn" style="border-color:var(--gold);color:var(--gold-dark);"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-3a2 2 0 0 1 4 0v3"/></svg></a>
+              <a href="#" aria-label="Pinterest" style="border-color:var(--gold);color:var(--gold-dark);"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><circle cx="12" cy="12" r="9"/><path d="M12 7c-2 0-3.2 1.3-3.2 2.9 0 .8.4 1.6 1 1.9M12 7c2 0 3 1.2 3 2.8 0 2-1 3.4-2.6 3.4-.8 0-1.3-.6-1.1-1.4M11 17l1.3-5"/></svg></a>
+              <a href="#" aria-label="Houzz" style="border-color:var(--gold);color:var(--gold-dark);"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><path d="M8 3v8l8 4v6H8v-6l-4-2V6z"/></svg></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- MAP -->
+        <div class="map-embed reveal">
+          <iframe
+            title="Aurora Architecture studio location map"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-74.0170%2C40.7150%2C-74.0000%2C40.7250&amp;layer=mapnik&amp;marker=40.7200%2C-74.0085"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand" aria-label="Aurora Architecture — home">
+            <span class="brand-mark">A</span>
+            <span class="brand-text"><span class="brand-name">Aurora</span><span class="brand-tag">Architecture</span></span>
+          </a>
+          <p>A multidisciplinary studio designing timeless architecture, interiors and urban environments across the globe.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-3a2 2 0 0 1 4 0v3"/></svg></a>
+            <a href="#" aria-label="Pinterest"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><circle cx="12" cy="12" r="9"/><path d="M12 7c-2 0-3.2 1.3-3.2 2.9 0 .8.4 1.6 1 1.9M12 7c2 0 3 1.2 3 2.8 0 2-1 3.4-2.6 3.4-.8 0-1.3-.6-1.1-1.4M11 17l1.3-5"/></svg></a>
+            <a href="#" aria-label="Houzz"><svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><path d="M8 3v8l8 4v6H8v-6l-4-2V6z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="projects.html">Residential</a></li>
+            <li><a href="projects.html">Commercial</a></li>
+            <li><a href="projects.html">Interior Design</a></li>
+            <li><a href="projects.html">Urban Planning</a></li>
+            <li><a href="projects.html">Hospitality</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li>128 Meridian Avenue, Suite 900<br />New York, NY 10013</li>
+            <li><a href="tel:+12125550147">+1 (212) 555-0147</a></li>
+            <li><a href="mailto:studio@auroraarchitecture.com">studio@auroraarchitecture.com</a></li>
+            <li>Mon–Fri · 9:00–18:00</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span data-year>2026</span> Aurora Architecture. All rights reserved.</p>
+        <div class="legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top">
+    <svg class="icon-svg" viewBox="0 0 24 24" style="width:18px;height:18px"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
