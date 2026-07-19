@@ -52,7 +52,11 @@
     opacity: 0; visibility: hidden; transition: opacity 0.4s var(--ease);
   }
   .nav-backdrop.show { opacity: 1; visibility: visible; }
-
+.nav-backdrop.show { opacity: 1; visibility: visible; }
+  /* Lift header (and its drawer child) above the backdrop when the menu is open,
+     otherwise the header's own stacking context (z-index:100) traps the drawer
+     below the body-level backdrop (z-index:105) — blurring it and stealing taps. */
+  body.nav-locked .site-header { z-index: 120; }
   /* Splits stack */
   .split { grid-template-columns: 1fr; gap: 40px; }
   .split.reverse .split-media { order: 0; }
